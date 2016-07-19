@@ -8,7 +8,7 @@
     {
         "class": "tabset_control",
         "layer0.texture": "",
-        "layer0.tint": [28, 31, 38], // -00
+        "layer0.tint": [15, 32, 38], // -00
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "content_margin": 0,
@@ -30,7 +30,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0,
         "layer0.texture": "",
-        "layer0.tint": [28, 31, 38], // -00
+        "layer0.tint": [15, 32, 38], // -00
         "layer0.inner_margin": [5,5],
         "layer0.opacity": 1
     },
@@ -50,7 +50,7 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [43, 48, 59] // 00
+        "layer0.tint": [26, 43, 52] // 00
     },
     // Tab dirty state (close button hidden)
     {
@@ -87,7 +87,7 @@
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [191, 97, 106] // 08
+        "layer0.tint": [238, 93, 100] // 08
     },
     {
         "class": "tab_close_button",
@@ -99,7 +99,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/circle.png",
-        "layer0.tint": [235, 203, 139], // 0A
+        "layer0.tint": [251, 201, 88], // 0A
         "layer0.opacity": 1
     },
     {
@@ -115,7 +115,7 @@
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [191, 97, 106] // 08
+        "layer0.tint": [238, 93, 100] // 08
     },
     {
         "class": "tab_close_button",
@@ -143,7 +143,7 @@
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "attributes": ["pressed"],
-        "layer0.opacity": 0.5
+        "layer0.opacity": 0.75
     },
 
 //
@@ -228,7 +228,7 @@
     {
         "class": "scroll_bar_control",
         "layer0.texture": "",
-        "layer0.tint": [35, 40, 48], // -01
+        "layer0.tint": [15, 32, 38], // -01
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "blur": true
@@ -238,7 +238,7 @@
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
         "layer0.texture": "",
-        "layer0.tint": [35, 40, 48], // -01
+        "layer0.tint": [15, 32, 38], // -01
         "layer0.inner_margin": [0,0],
         "blur": true
     },
@@ -246,7 +246,7 @@
     {
         "class": "scroll_corner_control",
         "layer0.texture": "",
-        "layer0.tint": [35, 40, 48], // -01
+        "layer0.tint": [15, 32, 38], // -01
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1
     },
@@ -254,7 +254,7 @@
     {
         "class": "puck_control",
         "layer0.texture": "",
-        "layer0.tint": [52, 61, 70], // 01
+        "layer0.tint": [49, 66, 77], // 01
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "content_margin": [6,0],
@@ -265,7 +265,7 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         // "layer0.texture": "",
-        "layer0.tint": [52, 61, 70], // 01
+        "layer0.tint": [49, 66, 77], // 01
         "layer0.inner_margin": [0,0],
         "content_margin": [12,6],
         "blur": false
@@ -291,7 +291,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         // "layer0.texture": "",
-        "layer0.tint": [43, 48, 59], // 00
+        "layer0.tint": [26, 43, 52], // 00
         "layer0.inner_margin": [0,5],
         "layer0.opacity": 0,
         "blur": false
@@ -348,7 +348,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [43, 48, 59],
+        "layer0.tint": [26, 43, 52],
         "layer0.opacity": 1
     },
 
@@ -359,7 +359,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [28, 31, 38] // -00
+        "border_color": [15, 32, 38] // -00
     },
 
 //
@@ -420,7 +420,7 @@
     {
         "class": "status_bar",
         "layer0.texture": "",
-        "layer0.tint": [28, 31, 38], // -00
+        "layer0.tint": [15, 32, 38], // -00
         "layer0.opacity": 1,
         "content_margin": 4
     },
@@ -445,7 +445,7 @@
         "class": "sidebar_container",
         // "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [35, 40, 48], // -01
+        "layer0.tint": [15, 32, 38], // -01
         "layer0.inner_margin": [1,5,2,1],
         "content_margin": [0,4,0,0]
     },
@@ -462,7 +462,7 @@
     {
         "class": "tree_row",
         // "layer0.texture": "",
-        "layer0.tint": [52, 61, 70], // 01
+        "layer0.tint": [49, 66, 77], // 01
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -587,7 +587,7 @@
         "attributes": ["dirty"],
         "layer0.texture": "Theme - Spacegray/Spacegray/circle.png",
         "layer0.opacity": 1,
-        "layer0.tint": [235, 203, 139] // 0A
+        "layer0.tint": [251, 201, 88] // 0A
     },
     {
         "class": "close_button",
@@ -599,14 +599,14 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.tint": [191, 97, 106] // 08
+        "layer0.tint": [238, 93, 100] // 08
     },
     {
         "class": "close_button",
         "attributes": ["dirty", "hover"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
-        "layer0.tint": [191, 97, 106] // 08
+        "layer0.tint": [238, 93, 100] // 08
     },
 
 //
@@ -660,7 +660,7 @@
         "min_size": [64,0],
         // "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [28, 31, 38], // -00
+        "layer0.tint": [15, 32, 38], // -00
         "layer0.inner_margin": [8,8]
     },
     // Hover button state
@@ -668,14 +668,14 @@
         "class": "button_control",
         "attributes": ["hover"],
         // "layer0.texture": "",
-        "layer0.tint": [35, 40, 48] // -01
+        "layer0.tint": [15, 32, 38] // -01
     },
     // Pressed button state
     {
         "class": "button_control",
         "attributes": ["pressed"],
         // "layer0.texture": "",
-        "layer0.tint": [28, 31, 38] // -00
+        "layer0.tint": [15, 32, 38] // -00
     },
 //
 // TEXT INPUT FIELD
@@ -685,7 +685,7 @@
     {
         "class": "text_line_control",
         // "layer0.texture": "",
-        "layer0.tint": [28, 31, 38], // -01
+        "layer0.tint": [15, 32, 38], // -01
         "layer0.opacity": 1,
         "content_margin": 3
     },
@@ -700,7 +700,7 @@
         // "layer0.texture": "",
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
-        "layer0.tint": [28, 31, 38], // -00
+        "layer0.tint": [15, 32, 38], // -00
         "content_margin": 0
     },
     // Quick panel background
@@ -708,7 +708,7 @@
         "class": "overlay_control",
         "layer0.opacity": 1,
         // "layer1.texture": "",
-        "layer1.tint": [51, 61, 70], // 01
+        "layer1.tint": [26, 43, 52], // 01
         "layer1.inner_margin": [0,0,0,0],
         "layer1.opacity": 1,
         "content_margin": 0
@@ -721,14 +721,14 @@
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [51, 61, 70],
+        "layer0.tint": [26, 43, 52],
         "layer0.opacity": 1,
         "dark_content": true
     },
     {
         "class": "quick_panel_row",
         // "layer0.texture": "",
-        "layer0.tint": [51, 61, 70], // 01
+        "layer0.tint": [26, 43, 52], // 01
         "layer0.inner_margin": 8,
         "layer0.opacity": 1
     },
@@ -736,7 +736,7 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         // "layer0.texture": "",
-        "layer0.tint": [34, 40, 48] // -01
+        "layer0.tint": [44, 61, 72] // -01
     },
     {
         "class": "quick_panel_label",
@@ -765,14 +765,14 @@
     {
         "class": "mini_quick_panel_row",
         // "layer0.texture": "",
-        "layer0.tint": [51, 61, 70], // 01
+        "layer0.tint": [26, 43, 52], // 01
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         // "layer0.texture": "",
-        "layer0.tint": [34, 40, 48] // -01
+        "layer0.tint": [44, 61, 72] // -01
     },
 
 //
@@ -782,7 +782,7 @@
     {
         "class": "popup_control",
         "content_margin": [0,0],
-        "layer0.tint": [51, 61, 70], // 01
+        "layer0.tint": [26, 43, 52], // 01
         "layer0.opacity": 1
     },
     {
